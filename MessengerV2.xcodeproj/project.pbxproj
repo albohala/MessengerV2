@@ -20,6 +20,7 @@
 		C3CA241D2730CE69009AA3BA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA241C2730CE69009AA3BA /* RegisterViewController.swift */; };
 		C3CA241F2730CEBD009AA3BA /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA241E2730CEBD009AA3BA /* NewConversationViewController.swift */; };
 		C3CA24222730CEF5009AA3BA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA24212730CEF5009AA3BA /* ProfileViewController.swift */; };
+		C3CA24272730DE51009AA3BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA24262730DE51009AA3BA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C3CA241C2730CE69009AA3BA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C3CA241E2730CEBD009AA3BA /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		C3CA24212730CEF5009AA3BA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C3CA24262730DE51009AA3BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				C3CA24182730CC71009AA3BA /* Resources */,
+				C3CA24142730CC4C009AA3BA /* Controllers */,
+				C3CA24152730CC55009AA3BA /* Views */,
 				C3CA24172730CC63009AA3BA /* ViewModels */,
 				C3CA24162730CC5C009AA3BA /* Models */,
-				C3CA24152730CC55009AA3BA /* Views */,
-				C3CA24142730CC4C009AA3BA /* Controllers */,
 				C35E9D8D2730CB30006B4378 /* Info.plist */,
 			);
 			path = MessengerV2;
@@ -172,6 +174,7 @@
 			children = (
 				C35E9D7F2730CB2F006B4378 /* AppDelegate.swift */,
 				C35E9D812730CB2F006B4378 /* SceneDelegate.swift */,
+				C3CA24262730DE51009AA3BA /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				C3CA241F2730CEBD009AA3BA /* NewConversationViewController.swift in Sources */,
 				C3CA241B2730CE3B009AA3BA /* LoginViewController.swift in Sources */,
 				C3CA241D2730CE69009AA3BA /* RegisterViewController.swift in Sources */,
+				C3CA24272730DE51009AA3BA /* Extensions.swift in Sources */,
 				C35E9D842730CB2F006B4378 /* ConversationViewController.swift in Sources */,
 				C3CA24222730CEF5009AA3BA /* ProfileViewController.swift in Sources */,
 				C35E9D802730CB2F006B4378 /* AppDelegate.swift in Sources */,
