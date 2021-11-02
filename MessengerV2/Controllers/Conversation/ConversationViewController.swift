@@ -6,26 +6,39 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ConversationViewController: UIViewController {
     // check to see if user is signed in using ... user defaults
     // they are, stay on the screen. If not, show the login screen
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        do {
+//            try FirebaseAuth.Auth.auth().signOut()
+//        }
+//        catch {
+//
+//        }
+//        DatabaseManager.shared.test() // call test!
+
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let isLoggedIn = UserDefaults.standard.bool(forKey: "logged_in")
-        if !isLoggedIn {
-            // present login view controller
-            
+        validateAuth()
+    }
+    
+    private func validateAuth() {
+        if FirebaseAuth.Auth.auth().currentUser == nil {
             let vc = LoginViewController()
             let nav = UINavigationController(rootViewController: vc)
             nav.modalPresentationStyle = .fullScreen
             present(nav, animated: false)
         }
     }
+    
 }
 
 
