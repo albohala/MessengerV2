@@ -17,6 +17,14 @@ target 'MessengerV2' do
   pod 'FacebookLogin'
   pod 'FacebookShare'
   pod 'FBSDKLoginKit'
+<<<<<<< HEAD
+
+  # message kit
+  pod 'MessageKit'
+  pod 'JGProgressHUD' # spinner overlay (heads up display)
+  pod 'SDWebImage' # Image load capability (caching)
+=======
+>>>>>>> parent of 717bf0e (Added ChatViewController, finished section 8)
     
 
   target 'MessengerV2Tests' do
