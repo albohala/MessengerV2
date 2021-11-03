@@ -7,9 +7,17 @@ target 'MessengerV2' do
 
   # Pods for MessengerV2
 
+  # Firebase
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+
+  # Facebook
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
+  pod 'FBSDKLoginKit'
+    
 
   target 'MessengerV2Tests' do
     inherit! :search_paths

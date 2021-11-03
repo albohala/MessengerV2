@@ -47,6 +47,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="6gs-fc-w7w"/>
+                    <connections>
+                        <outlet property="tableView" destination="RRz-on-0C8" id="jxS-ac-Niu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PE4-Q3-z6X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,7 +58,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="t8n-Fg-mjh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yQQ-Kc-nXA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="1u3-qW-CBD" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tbF-aH-Tul">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -68,6 +70,7 @@
                         <segue destination="jFw-dH-jS5" kind="relationship" relationship="viewControllers" id="00M-8f-58Y"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQQ-Kc-nXA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-188" y="-345"/>
         </scene>
